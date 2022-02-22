@@ -49,7 +49,7 @@ def color_positive_green(val):
 
 final_chart =  prices.style.applymap(color_positive_green, subset=['color'])
 final_chart
-st.markdown("# chart with price movement of top 2500 cryptos by marketcap (according to coingecko)")
+st.markdown("# Table with price movement of top 2500 cryptos by marketcap (according to coingecko)")
 
 
 all_prices = pd.read_csv('prices.csv')
